@@ -1,0 +1,41 @@
+{
+  "name": "vyne-language-support",
+  "displayName": "Vyne Language Support",
+  "description": "Language Support for Vyne",
+  "publisher": "Tuncay",
+  "version": "0.0.2",
+  "icon": "assets/vyne.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuncaygafarli/vyne-extension.git"
+  },
+  "engines": {
+    "vscode": "^1.108.1"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "vyne",
+        "aliases": [
+          "Vyne",
+          "vyne"
+        ],
+        "extensions": [
+          ".vy",
+          ".vyne"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "vyne",
+        "scopeName": "source.vyne",
+        "path": "./syntaxes/vyne.tmLanguage.json"
+      }
+    ]
+  }
+}
