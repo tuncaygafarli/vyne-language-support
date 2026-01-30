@@ -23,7 +23,15 @@
       "patterns": [
         {
           "name": "keyword.control.vyne",
-          "match": "\\b(if|while|return|module|dismiss|group|sub|true|false)\\b"
+          "match": "\\b(if|while|return|module|dismiss|group|sub|break|continue)\\b"
+        }
+      ]
+    },
+    "constants": {
+      "patterns": [
+        {
+          "name": "constant.language.boolean.vyne",
+          "match": "\\b(true|false)\\b"
         }
       ]
     },
