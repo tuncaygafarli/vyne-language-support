@@ -8,7 +8,8 @@
     { "include": "#modules" },
     { "include": "#operators" },
     { "include": "#strings" },
-    { "include": "#numbers" }
+    { "include": "#numbers" },
+    { "include": "#constants" }
   ],
   "repository": {
     "comments": {
@@ -23,7 +24,7 @@
       "patterns": [
         {
           "name": "keyword.control.vyne",
-          "match": "\\b(if|while|return|module|dismiss|group|sub|break|continue)\\b"
+          "match": "\\b(if|while|return|module|dismiss|group|sub|break|continue|through|loop)\\b"
         }
       ]
     },
@@ -40,6 +41,10 @@
         {
           "name": "keyword.operator.logical.vyne",
           "match": "(&&|\\|\\||==|!=|>=|<=|>|<)"
+        },
+        {
+          "name": "keyword.operator.range.vyne",
+          "match": "(\\.\\.|::|->)"
         },
         {
           "name": "keyword.operator.assignment.vyne",
