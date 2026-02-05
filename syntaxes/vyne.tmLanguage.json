@@ -79,7 +79,7 @@
         },
         {
           "name": "support.class.vyne",
-          "match": "\\b(vcore|vglib|vmem)\\b"
+          "match": "\\b(vcore|vglib|vmem|String|Array|Number)\\b"
         }
       ]
     }
