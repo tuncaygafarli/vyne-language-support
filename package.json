@@ -3,7 +3,7 @@
   "displayName": "Vyne Language Support",
   "description": "Language Support for Vyne",
   "publisher": "Tuncay",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "icon": "assets/vyne.png",
   "repository": {
     "type": "git",
